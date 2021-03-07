@@ -1,0 +1,143 @@
+body {
+/* GERAIS  */
+ 
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   align-items: center;
+   box-sizing: border-box;
+   background-color: 	#99dbe8;
+
+
+}
+a {
+  text-decoration: none;
+}
+/*CABECALHO*/
+.cabecalho {  
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cabecalho__titulo{
+  
+  color: #b382ba;
+  font-family: cursive
+  font-size 62px;    
+  text-align:right;
+  
+}
+/*OPÇÕES*/
+@media(min-width:320px){
+  .opcoes{
+    margin: 0 0 0 auto;
+  }
+}
+@media(min-width: 768px){
+  .opcoes{
+    margin:6rem auto 6rem auto;
+  }
+}
+@media(min-width: 992px){
+  .opcoes{
+    max-width: 80%
+  }
+}
+@media(min-width: 1200px){
+  .opcoes{
+    max-width: 60%;
+  }
+}
+#valor-hora{
+    color: purple;
+    font-family: cursive
+    margin-top 10px;
+    padding: 8px;
+    width: 80px;
+
+}
+#horas-projeto{
+  color: purple;
+  font-family: cursive
+  margin-top 10px;
+  padding: 8px;
+  width: 80px;
+}
+
+/*SECAO*/
+.secao__conteudo{
+  padding: 3rem 1rem;
+  margin-bottom: 10px;
+}
+.secao__formulario{
+  text-align: center;
+}
+
+/*BOTÃO*/
+button {
+  width: 120px;
+  padding: 8px 20px;
+  margin-top: 16px;
+  background-color: #b382ba ;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.4s;
+  outline: none;
+  color: #f6f6f6;
+}
+
+button:hover {
+  background-color: #ecddf3;
+  color: #3f3d56;
+}
+
+.secao__rodape__resultado{
+  text-align: center;
+  color:#b382ba ;
+}
+
+    /* FOOTER */
+  
+    .footer {
+      color: rgb(167, 165, 165);
+      margin: 5% 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .redes-sociais {
+      display: flex;
+    }
+    
+    .redes-sociais__link {
+      margin: 20px;
+      background-color: #99dbe8;
+      color: white;
+      text-align:center;
+      padding: 10px 20px;
+      width: 150px;
+    }
+    
+    .redes-sociais__link:hover {
+      transform: scale(1.1);
+      transition: .5s;
+    }
+    
+    .redes-sociais__link img {
+      padding-top: 15px;
+      width: auto;
+      height: 70px;
+    }
+    .copyright__voltar {
+      color: #b382ba;
+      margin: 5% 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }

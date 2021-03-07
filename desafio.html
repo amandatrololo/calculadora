@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet"  href="css/desafio.css" />
+    <title>Calculadora de Freela</title>
+    <link rel="icon" href="img/calculadora.ico">
+  </head>
+  <body>
+    <!-- CABECALHO -->
+    <header class="cabecalho">
+      <div class="cabecalho__conteudo">
+        <h1 class="cabecalho__titulo" >{Calculadora de Freela} </h1>
+        <p class="cabecalho__subtitulo"><strong> Orçar um projeto nunca foi tão fácil!</strong></p>
+      </div>
+  </header>
+  <main class="opcoes">
+    <section class= "secao corpo-principal">
+      <article class= "secao__conteudo">
+        <div class="secao__formulario">
+          <fieldset>
+            <legend>Qual o valor da Hora?</legend>
+            <div class="secao__formulario__grupo">
+              <label for="valor-hora"></label>
+              <input type="number" id="valor-hora" />
+            </div>
+          </fieldset>      
+          <fieldset>
+            <legend>Quantas Horas de Projeto?</legend>
+            <div class="secao__formulario__grupo">   
+              <label for="horas-projeto"></label>
+              <input type="number" id="horas-projeto" />
+            </div>
+          </fieldset>    
+        <button onclick="calcularProjeto()">Calcular Valor do Projeto</button>
+        </div> 
+      </article>
+        <h3 class="secao__rodape__resultado">
+          <span id="resposta"><small>Valor final do Projeto: </small>R$0,00</span>
+        </h3>    
+      </footer>
+    </section>  
+
+    <script type="text/javascript" src="js/desafio.js"></script>
+    <footer id="feio" class="footer">
+      <div class="redes-sociais">
+        
+  
+        <a class="redes-sociais__link" href=" https://www.linkedin.com/in/amanda-bittencourt-389a24b1/alt=" target="_blank">
+          <img src="./img/in.png"  alt= "icone do linkedin"> 
+          <h3>Linkedin</h3>
+          <p>Amanda Bittencourt</p>
+        </a>
+
+  
+        <a class="redes-sociais__link" href="https://github.com/amandatrololo"> 
+          <img src="./img/github.png" alt="icone do github">
+          <h3>Github</h3>
+          <p>amandatrololo</p>
+        </a>
+        <a class="redes-sociais__link" href="https://reprograma.com.br/"> 
+          <img src="img\logotipo-reprograma.png" alt="logotipo da reprograma">
+          <h3>Apoiado por ♥</h3>
+
+        </a>
+      </div>
+        
+        <div class="copyright">
+          <p><strong> 2021 - Amanda Bittencourt</strong></p>
+          <a class="copyright__voltar" href="index.html"><u>&lt;&lt;Voltar</u></a>
+        </div>
+      </footer>
+  </body>
+</html>
