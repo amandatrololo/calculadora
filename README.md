@@ -1,3 +1,3 @@
 # calculadora
 
-Projeto proposto pela Reprograma, para apresentação e classificatório para o início do curso. 
+Mostra o valor das horas trabalhadas em Real.
